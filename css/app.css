@@ -38,4 +38,55 @@ img {
   max-width: 100%;
 }
 
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-fluid {
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1;
+  font-family: "Mulish", sans-serif;
+  color: #7d7987;
+  font-weight: 400;
+}
+
+.header {
+  margin-bottom: 80px;
+  padding-top: 56px;
+}
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 0 40px;
+}
+.menu-link {
+  color: inherit;
+  font-size: 18px;
+  transition: all 0.2s linear;
+}
+.menu-link:hover {
+  color: black;
+}
+
 /*# sourceMappingURL=app.css.map */
