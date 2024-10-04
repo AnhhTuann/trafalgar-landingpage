@@ -8,9 +8,9 @@
     font-size: 18px;
     transition: all 0.2s linear;
     font-weight: 400;
-  }
-  &-link:hover {
-    color: $black;
-    font-weight: bold;
+    &:hover {
+      color: $black;
+      font-weight: bold;
+    }
   }
 }
