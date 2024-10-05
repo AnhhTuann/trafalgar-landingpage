@@ -1,6 +1,7 @@
 .services {
   margin-bottom: 222px;
   background: url("../images/services-bg.png") no-repeat -100px center / auto;
+  --columns: 3;
   &-header {
     text-align: center;
     max-width: 952px;
@@ -8,7 +9,7 @@
   }
   &-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(var(--columns), 1fr);
     grid-gap: 34px;
     margin-bottom: 71px;
   }
@@ -36,5 +37,24 @@
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+  }
+  @media screen and (max-width: 1023.98px) {
+    --columns: 2;
+    margin-bottom: 100px;
+    &-header {
+      margin-bottom: 40px;
+    }
+  }
+  @media screen and (max-width: 767.98px) {
+    --columns: 1;
+    &-image {
+      height: auto;
+    }
+    &-list {
+      margin-bottom: 40px;
+    }
+    &-item {
+      padding: 50px 30px;
+    }
   }
 }

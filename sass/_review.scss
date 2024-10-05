@@ -46,4 +46,33 @@
     line-height: 158%;
     color: rgba(255, 255, 255, 0.9);
   }
+  @media screen and (max-width: 1023.98px) {
+    margin-bottom: 100px;
+    &-main {
+      padding: 68px 20px;
+    }
+    &-heading {
+      margin-bottom: 40px;
+    }
+  }
+  @media screen and (max-width: 767.98px) {
+    &-content {
+      grid-template-columns: 1fr;
+      grid-gap: 34px 0;
+    }
+    &-avatar {
+      width: 100px;
+      height: 100px;
+    }
+    &-customer {
+      gap: 0 15px;
+    }
+    &-name {
+      font-size: 18px;
+    }
+    &-desc,
+    &-job {
+      font-size: 16px;
+    }
+  }
 }
