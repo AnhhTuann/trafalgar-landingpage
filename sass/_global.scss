@@ -67,3 +67,9 @@
   font-size: 18px;
   line-height: 167%;
 }
+
+.center-inline {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
