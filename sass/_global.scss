@@ -37,7 +37,8 @@
 }
 
 .global-heading {
-  color: $black;
+  --heading-color: black;
+  color: var(--heading-color);
   font-weight: bold;
   font-size: 36px;
   line-height: 156%;
@@ -49,7 +50,7 @@
     position: absolute;
     width: 56px;
     height: 2px;
-    background-color: $black;
+    background-color: var(--heading-color);
     bottom: 0;
     left: 0;
   }
